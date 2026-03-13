@@ -1,4 +1,4 @@
-# QPie 🍓
+# QPie MCP Server🍓
 
 ### AI-Accessible Hardware Runtime for Raspberry Pi
 
