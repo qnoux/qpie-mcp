@@ -1,0 +1,101 @@
+# =========================
+# Rust
+# =========================
+
+# Compiled output
+/target/
+
+# Cargo lock (ignore for libraries, keep for applications if desired)
+# For this project you may keep it, but uncomment to ignore
+# Cargo.lock
+
+# Backup files
+**/*.rs.bk
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.local
+.env.*.local
+
+# Config secrets
+config/*.secret
+config/*.key
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Runtime files
+# =========================
+
+*.pid
+*.sock
+
+# Camera output / captured images
+photos/
+*.jpg
+*.png
+*.mp4
+
+# Sensor data dumps
+data/
+*.csv
+*.parquet
+
+# =========================
+# OS Files
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# =========================
+# Editors / IDE
+# =========================
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# =========================
+# Build / Packaging
+# =========================
+
+dist/
+build/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+coverage/
+*.profraw
+*.profdata
+
+# =========================
+# Raspberry Pi temporary
+# =========================
+
+tmp/
+cache/
